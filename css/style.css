@@ -8,5 +8,48 @@
 
 
 html {
-    font-size: 10%;
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: #eeeeee;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    /* grid-row-gap: 30px;
+    grid-column-gap: 30px; */
+    grid-gap: 30px;
+}
+
+.item {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+.item--1 {
+    background-color: orange;
+}
+
+.item--2 {
+    background-color: green;
+}
+
+.item--3 {
+    background-color: violet;
+}
+
+.item--4 {
+    background-color: pink;
+}
+
+.item--5 {
+    background-color: blue;
+}
+
+.item--6 {
+    background-color: brown;
 }
